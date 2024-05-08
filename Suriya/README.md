@@ -1,8 +1,6 @@
 # Ex.07 Software Product Company Website
+## Date:16/12/2023
 
-## Date:08/05/2023
-## Name: Suriya Pravin M
-## Reg.No: 212223230223
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
 
@@ -30,8 +28,8 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-homepage
 ```
+homepage
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +43,7 @@ homepage
             .banner {
                 width: 100%;
                 height: 100vh;
-                background: crimson;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
                 background-size: cover;
                 background-position: center;
             }
@@ -70,7 +68,7 @@ homepage
                 width: 300px;
                 height: 40px;
                 display: flex;
-                background: rgba(210, 33, 33, 0.759);
+                background: rgba(255, 255, 255, 0.2);
                 padding: 1px 1px;
                 font-size: 15px;
                 border-radius: 10px;
@@ -172,18 +170,22 @@ homepage
                 transition: 0.5s;
                 cursor: pointer;
             }
+            footer {
+                background-color: #6fa1f8;
+                margin-top: auto;
+            }
         </style>
     </head>
 <body>
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">S<span>uriya</span>P<span>ravin</span></h1>
+            <h1 class="logo">I<span>nfiniti</span>T<span>ech</span></h1>
             <ul>
-                <li><a href="1.html"> Home </a></li>
-                <li><a href="2.html"> Products </a></li>
-                <li><a href="3.html"> Person </a></li>
-                <li><a href="4.html"> Contact </a></li>
+                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/person.html"> Person </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -203,11 +205,15 @@ homepage
             </div>
         </div>  
     </div>
+    <footer>
+        <center> Designed and Developed by Ragavi (23012384) </center>
+    </footer>
 </body>
 </html>
-```
+
+
 person
-```
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -221,7 +227,7 @@ person
             .banner {
                 width: 100%;
                 height: 100vh;
-                background: crimson;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
                 background-size: cover;
                 background-position: center;
             }
@@ -332,12 +338,12 @@ person
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">S<span>uriya</span>P<span>ravin</span></h1>
+            <h1 class="logo">I<span>nfiniti</span>T<span>ech</span></h1>
             <ul>
-                <li><a href="1.html"> Home </a></li>
-                <li><a href="2.html"> Products </a></li>
-                <li><a href="3.html" class="bg-person"> person </a></li>
-                <li><a href="4.html"> Contact </a></li>
+                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/person.html" class="bg-person"> person </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -355,7 +361,7 @@ person
                     <td> <img src="jeff.jpg"> </td>
                 </tr>
                 <tr align="center">
-                    <th> Suriya Pravin </th>
+                    <th> Ragvi Krishnan </th>
                     <th> Sundhar Pichai </th>
                     <th> Steve Jobs </th>
                     <th> Elon Musk </th>
@@ -373,13 +379,14 @@ person
             </table>
         </div>
     </div>
+    <footer>
+        <center> Designed and Developed by Ragavi(23012384) </center>
+    </footer>
 </body>
 </html>
-```
 
 products
 
-```
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -393,7 +400,7 @@ products
             .banner {
                 width: 100%;
                 height: 100vh;
-                background: crimson;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
                 background-size: cover;
                 background-position: center;
             }
@@ -514,12 +521,12 @@ products
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">S<span>uriya</span>P<span>ravin</span></h1>
+            <h1 class="logo">I<span>nfiniti</span>T<span>ech</span></h1>
             <ul>
-                <li><a href="1.html"> Home </a></li>
-                <li><a href="2.html" class="bg-product"> Products </a></li>
-                <li><a href="3.html"> Person </a></li>
-                <li><a href="4.html"> Contact </a></li>
+                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html" class="bg-product"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/person.html"> person </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -591,12 +598,14 @@ products
             </div>
         </div>
     </div>
+    <footer>
+        <center> Designed and Developed by Ragavi (23012384) </center>
+    </footer>
 </body>
 </html>
-```
 
 contactus
-```
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -610,7 +619,7 @@ contactus
             .banner {
                 width: 100%;
                 height: 100vh;
-                background: crimson;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
                 background-size: cover;
                 background-position: center;
             }
@@ -772,18 +781,22 @@ contactus
                 color: #6fa1f8;
                 font-size: 20px;
             }
+            footer {
+                background-color: #6fa1f8;
+                margin-top: auto;
+            }
         </style>
     </head>
 <body>
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">S<span>uriya</span>P<span>ravin</span></h1>
+            <h1 class="logo">I<span>nfiniti</span>T<span>ech</span></h1>
             <ul>
-                <li><a href="1.html"> Home </a></li>
-                <li><a href="2.html"> Products </a></li>
-                <li><a href="3.html"> Person </a></li>
-                <li><a href="4.html" class="bg-contact"> Contact </a></li>
+                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/person.html"> person </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html" class="bg-contact"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -807,23 +820,24 @@ contactus
             </div>
             <div class="box-2"> 
                 <h2> Contact Information </h2>
-                <p> <span>Address</span> : Anna Nagar 9th Street</p>
-                <p> <span>Email</span> : Suriyapravinoffical@gmail.com</p>
-                <p> <span>Phone</span> : 123xxxxxxx </p>
+                <p> <span>Address</span> : No.9, Perumal Kovil Street, mangalore Village,mangalore  Post,cuddalore</p>
+                <p> <span>Email</span> : ragavikrishnan03@gmail.com</p>
+                <p> <span>Phone</span> : 9600937042 </p>
             </div>
         </div>
     </div>
+    <footer>
+        <center> Designed and Developed by Ragavi(23012384) </center>
+    </footer>
 </body>
 </html>
+
 ```
 
-
-
 ## OUTPUT:
-![alt text](<Screenshot (8).png>)
-![alt text](<Screenshot (9).png>)
-![alt text](<Screenshot (11).png>)
-![alt text](<Screenshot (13).png>)
-
+![Alt text](<Screenshot 2023-12-16 162130.png>)
+![Alt text](<Screenshot 2023-12-16 162157.png>)
+![Alt text](<Screenshot 2023-12-16 162250.png>)
+![Alt text](<Screenshot 2023-12-16 162955.png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
